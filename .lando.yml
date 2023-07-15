@@ -1,0 +1,15 @@
+name: em-d9-site-1
+recipe: pantheon
+config:
+  framework: drupal9
+  site: em-d9-site-1
+  id: 4574fe2e-dadf-4285-adb8-03fe89642399
+
+## Disable push and code pull
+tooling:
+  push: disabled
+  pull:
+    description: Pull database and files without code
+    options:
+      code:
+        default: none
